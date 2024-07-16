@@ -1,0 +1,30 @@
+sonar
+
+username: admin
+password: admin1
+
+sonar token
+
+user: Jenkinstoken
+token: squ_3f6ac1eaec8d36adf119b5c60cd1fd5833e467bf
+
+jenkins
+
+username: admin
+password: ade382f353544ca6a4d736bfb126e784`
+
+sonar configuration in jenkins
+
+Name: SonarQubeInstance
+
+Trigger analysis using CLI: SonarQubeScanner
+
+For Fyp Scanner need to install node and python
+
+login to the container
+
+apt update
+apt install nodejs
+apt install python3
+chown root:root -R /var/jenkins_home
+chmod 777 -R /var/jenkins_home
